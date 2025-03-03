@@ -5,6 +5,7 @@ import MenuSvg from "./svg/MenuSvg";
 import Image from "next/image";
 import logo from "../assets/logo.png";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export const height = {
   initial: {
@@ -53,9 +54,9 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center py-2 px-5 lg:px-7.5 xl:px-10 lg:py-4">
-        <a className="block z-3 xl:mr-8" href="#hero">
+        <Link className="block z-3 xl:mr-8" href="/">
           <Image src={logo} width={250} height={61} alt="Brainwave" />
-        </a>
+        </Link>
 
         <nav
           className={`${
@@ -68,26 +69,26 @@ const Header = () => {
             className="w-full h-[100svh] bg-black relative z-2 flex flex-col lg:h-auto items-center justify-center p-4 m-auto lg:hidden"
           >
             {navigation.map((item) => (
-              <a
+              <Link
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
                 className={`block relative text-amber-50 font-code text-4xl transition-all  duration-300 ease-in-out uppercase rounded-4xl    hover:bg-blue-800  px-6 py-6 md:p-4  lg:text-[1rem] lg:font-semibold lg:mr-1  xl:px-12`}
               >
                 {item.title}
-              </a>
+              </Link>
             ))}
           </motion.div>
           <div className="hidden relative w-full z-2 lg:flex lg:h-auto items-center justify-center m-auto ">
             {navigation.map((item) => (
-              <a
+              <Link
                 key={item.id}
                 href={item.url}
                 onClick={handleClick}
                 className={`block relative text-amber-50 font-code text-4xl transition-all  duration-300 ease-in-out uppercase rounded-4xl    hover:bg-blue-800  px-6 py-6 md:p-4  lg:text-[1rem] lg:font-semibold lg:mr-1  xl:px-12`}
               >
                 {item.title}
-              </a>
+              </Link>
             ))}
           </div>
         </nav>
