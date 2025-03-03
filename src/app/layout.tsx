@@ -29,11 +29,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cargo Flow",
     description: "Cargo Flow - Streamlining Logistics for the Future",
-    url: "https://yourwebsite.com", // Change this to your actual website URL
+    url: "https://construction-mu-plum.vercel.app/", // Change this to your actual website URL
     siteName: "Cargo Flow",
     images: [
       {
-        url: "https://yourwebsite.com/og-image.jpg", // URL of the image to use for social media previews
+        url: "/cagro-image.png", // URL of the image to use for social media previews
         width: 1200,
         height: 630,
         alt: "Cargo Flow - Streamlining Logistics for the Future",
@@ -47,6 +47,7 @@ export const metadata: Metadata = {
     creator: "@CargoFlow", // Twitter handle of the creator/author
     title: "Cargo Flow",
     description: "Cargo Flow - Streamlining Logistics for the Future",
+    images: "/cagro-image.png",
   },
   icons: {
     icon: "/icon.png", // Favicon for your website
