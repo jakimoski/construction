@@ -156,22 +156,22 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#features",
+    url: "/",
   },
   {
     id: "1",
-    title: "Contact Us",
-    url: "#pricing",
+    title: "About Us",
+    url: "/about-us",
   },
   {
     id: "2",
     title: "Services",
-    url: "#how-to-use",
+    url: "/services",
   },
   {
     id: "3",
-    title: "About Us ",
-    url: "#",
+    title: "Contact Us",
+    url: "/contact-us",
   },
 ];
 

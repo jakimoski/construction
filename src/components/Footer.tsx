@@ -15,8 +15,8 @@ const Footer = () => {
             <li key={item.id}>
               <a
                 href={item.url}
-                target="_blank"
-                className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
+                target="nofollow"
+                className="flex items-center justify-center w-10 h-10  border-2 border-blue-800 rounded-full transition-colors "
               >
                 <Image
                   src={item.iconUrl}

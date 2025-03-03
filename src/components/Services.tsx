@@ -59,7 +59,6 @@ const Services = () => {
         </div>
         <Lottie
           animationData={serviceAnimation}
-          // style={style}
           interactivity={interactivity}
           loop={false}
           className="absolute hidden lg:block left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[65%] z-1"
