@@ -16,7 +16,7 @@ const Footer = () => {
               <a
                 href={item.url}
                 target="nofollow"
-                className="flex items-center justify-center w-10 h-10  border-2 border-blue-800 rounded-full transition-colors "
+                className="flex social-icons items-center justify-center w-12 h-12  border-2 border-blue-800 bg-blue-950 hover:bg-blue-800 rounded-full transition-colors "
               >
                 <Image
                   src={item.iconUrl}

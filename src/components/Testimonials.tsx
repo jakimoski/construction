@@ -4,6 +4,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import SocialCard from "./SocialCard";
 import Heading from "./Heading";
 import { testimonials } from "@/constants";
+import Button from "./Button";
 
 const Testimonials: React.FC = () => {
   const container = useRef<HTMLDivElement>(null);
@@ -53,6 +54,9 @@ const Testimonials: React.FC = () => {
           />
         ))}
       </motion.div>
+      <div className="w-full flex items justify-center pt-4 md:pt-12">
+        <Button>Contact Us</Button>
+      </div>
     </section>
   );
 };

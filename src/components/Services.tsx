@@ -46,7 +46,6 @@ const Services = () => {
                     height={80}
                     alt={item.title}
                     style={{ width: "auto", height: "auto" }}
-                    className="services-icon"
                   />
                   <p className="ml-auto text-sm font-bold text-n-1 uppercase tracking-wider">
                     Explore more
