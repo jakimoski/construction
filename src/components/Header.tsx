@@ -55,7 +55,7 @@ const Header = () => {
     >
       <div className="flex items-center py-2 px-5 lg:px-7.5 xl:px-10 lg:py-4">
         <Link className="block z-3 xl:mr-8" href="/">
-          <Image src={logo} width={250} height={61} alt="Brainwave" />
+          <Image src={logo} width={250} height={61} alt="Brainwave" priority />
         </Link>
 
         <nav

@@ -7,11 +7,13 @@ import Footer from "@/components/Footer";
 const oswald = Oswald({
   variable: "--font-oswald",
   subsets: ["latin"],
+  display: "swap",
 });
 
 const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {

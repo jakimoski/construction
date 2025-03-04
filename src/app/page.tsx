@@ -13,6 +13,8 @@ const Testimonials = dynamic(() => import("../components/Testimonials"), {
   ssr: false,
 });
 
+const Cta = dynamic(() => import("../components/Cta"), { ssr: false });
+
 export default function Home() {
   useEffect(() => {
     // Ensure this only runs on the client-side
@@ -30,6 +32,7 @@ export default function Home() {
       <Services />
       <Dashboard />
       <Testimonials />
+      <Cta />
     </main>
   );
 }

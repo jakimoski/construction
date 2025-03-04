@@ -30,7 +30,7 @@ const Services = () => {
         text="From freight transportation to last-mile delivery, we provide seamless logistics solutions tailored to your needs"
       />
       <div className=" relative ">
-        <div className="flex relative text-white p-12 flex-wrap gap-10 items-center justify-center mb-10 z-20">
+        <div className="flex relative text-white p-6 md:p-12 flex-wrap gap-10 items-center justify-center mb-10 z-20">
           {services.map((item) => (
             <div
               className="glass relative p-0.5 sm:min-h-[25rem]  md:flex-1/3  lg:flex-1/4"
@@ -45,7 +45,7 @@ const Services = () => {
                     width={80}
                     height={80}
                     alt={item.title}
-                    style={{ width: "auto", height: "auto" }}
+                    style={{ width: 80, height: 80 }}
                   />
                   <p className="ml-auto text-sm font-bold text-n-1 uppercase tracking-wider">
                     Explore more

@@ -2,7 +2,6 @@ interface HeadingProps {
   className?: string;
   title?: string;
   text?: string;
-  tag?: string;
 }
 
 const Heading = ({ className, title, text }: HeadingProps) => {
