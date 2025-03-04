@@ -20,7 +20,7 @@ const Dashboard = () => {
   const y = useTransform(scrollYProgress, [0, 1], [0, -250]);
 
   return (
-    <section ref={container} className="md:py-[5rem] relative">
+    <section ref={container} className="py-[5rem] md:py-[10rem] relative">
       <Heading
         title="Smart Logistics Dashboard"
         text="Gain real-time insights, track shipments, and streamline your logistics operations with an intuitive and data-driven dashboard"

@@ -24,7 +24,7 @@ const interactivity: Omit<InteractivityProps, "lottieObj"> = {
 
 const Services = () => {
   return (
-    <section className="relative  bg-n-9 text-n-1 md:py-[10rem]">
+    <section className="relative py-[5rem]  bg-n-9 text-n-1 md:py-[10rem]">
       <Heading
         title="Efficient & Reliable Logistics Services"
         text="From freight transportation to last-mile delivery, we provide seamless logistics solutions tailored to your needs"

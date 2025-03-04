@@ -1,10 +1,12 @@
 "use client";
-import Dashboard from "@/components/Dashboard";
 import { useEffect } from "react";
 import dynamic from "next/dynamic";
 
 const Hero = dynamic(() => import("../components/Hero"), { ssr: false });
 const Services = dynamic(() => import("../components/Services"), {
+  ssr: false,
+});
+const Dashboard = dynamic(() => import("../components/Dashboard"), {
   ssr: false,
 });
 const Testimonials = dynamic(() => import("../components/Testimonials"), {

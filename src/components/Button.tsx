@@ -2,9 +2,9 @@ const Button: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <button className=" relative group inline-block p-px font-semibold leading-6 text-white bg-gray-900 shadow-2xl cursor-pointer rounded-xl  transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
       <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-gray-400 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
-      <span className="relative z-10 block px-7 py-4 rounded-xl bg-blue-950 ">
+      <span className="relative z-10 block px-7 py-2 md:px-7 md:py-4 rounded-xl bg-blue-950 ">
         <div className="relative z-10 flex items-center space-x-2">
-          <span className="transition-all font-md text-xl  duration-500 group-hover:translate-x-1">
+          <span className="transition-all font-md text-l md:text-xl  duration-500 group-hover:translate-x-1">
             {children}
           </span>
           <svg

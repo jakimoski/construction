@@ -18,9 +18,9 @@ const Testimonials: React.FC = () => {
   const half = Math.floor(testimonials.length / 2);
 
   return (
-    <div
+    <section
       ref={container}
-      className="flex flex-col  relative py-[5rem]  overflow-hidden z-1"
+      className="flex flex-col  relative py-[5rem] md:py-[10rem]  overflow-hidden z-1"
     >
       <Heading
         title="What Our Customers Say"
@@ -28,7 +28,7 @@ const Testimonials: React.FC = () => {
       />
       <motion.div
         style={{ x: x1 }}
-        className="flex whitespace-nowrap relative mb-8 gap-[3vw] min-w-[120vw] -left-[10vw]"
+        className="flex whitespace-nowrap relative mb-8 gap-[3vw] min-w-[120vw] -left-[20vw]"
       >
         {testimonials.slice(0, half).map((comment, index) => (
           <SocialCard
@@ -53,7 +53,7 @@ const Testimonials: React.FC = () => {
           />
         ))}
       </motion.div>
-    </div>
+    </section>
   );
 };
 
