@@ -17,14 +17,11 @@ const Cta = dynamic(() => import("../components/Cta"), { ssr: false });
 
 export default function Home() {
   useEffect(() => {
-    // Ensure this only runs on the client-side
-    if (typeof window !== "undefined") {
-      (async () => {
-        const LocomotiveScroll = (await import("locomotive-scroll")).default;
-        new LocomotiveScroll();
-      })();
-    }
-  }, []); // Empty dependency array ensures this runs only once when the component mounts
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      new LocomotiveScroll();
+    })();
+  }, []);
 
   return (
     <main>

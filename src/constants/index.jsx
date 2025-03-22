@@ -338,3 +338,14 @@ export const testimonials = [
       "From small parcels to bulk freight, they handle everything perfectly. We appreciate their dedication to service quality.",
   },
 ];
+
+export const aboutUs = [
+  {
+    id: "0",
+    title: "Our Story",
+    paragraphOne:
+      "Cargo Flow was founded with a bold vision to redefine logistics and make global trade seamless. What started as a small venture has grown into a leading logistics provider, trusted by businesses worldwide. Our journey has been shaped by dedication, innovation, and a relentless commitment to efficiency.",
+    paragraphTwo:
+      "From humble beginnings to a global presence, we continue to push boundaries embracing technology and sustainability to create smarter supply chain solutions. With Cargo Flow, your shipments are in safe hands because we don’t just move goods, we drive progress.",
+  },
+];

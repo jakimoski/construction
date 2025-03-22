@@ -1,3 +1,11 @@
+import Hero from "@/components/About/Hero";
+import OurStory from "@/components/About/OurStory";
+
 export default function AboutUs() {
-  return <main>page</main>;
+  return (
+    <main>
+      <Hero />
+      <OurStory />
+    </main>
+  );
 }
