@@ -9,11 +9,11 @@ export default function OurStory() {
   const secondParagraph = aboutUs[0].paragraphTwo;
 
   return (
-    <>
+    <section className="pt-[5rem] pb-[3rem]  md:pt-[10rem] md:pb-[7rem]">
       <Heading title="Our Story" text="Discover the Journey of Cargo Flow" />
       <Paragraph paragraph={firstParagraph} />
       <Paragraph paragraph={secondParagraph} />
-    </>
+    </section>
   );
 }
 
@@ -38,7 +38,7 @@ function Paragraph({ paragraph }: { paragraph: string }) {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ["start 0.9", "start 0.50"],
+    offset: ["start 0.9", "start 0.60"],
   });
 
   const text = paragraph.split(" ");
@@ -46,7 +46,7 @@ function Paragraph({ paragraph }: { paragraph: string }) {
   return (
     <p
       ref={container}
-      className="flex flex-wrap text-5xl mb-6 p-7 max-w-[1240px] m-auto text-amber-50"
+      className="flex flex-wrap text-2xl md:text-4xl lg:text-4xl mb-6 p-7 max-w-[1240px] m-auto text-amber-50"
     >
       {text.map((word, i) => {
         const start = i / text.length;
