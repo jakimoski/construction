@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useRef } from "react";
 import ContactForm from "./ConatctForm";
 import Lottie, { LottieRef } from "lottie-react";
