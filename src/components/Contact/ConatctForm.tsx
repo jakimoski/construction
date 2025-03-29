@@ -104,14 +104,6 @@ export default function ContactForm() {
       {/* Error Message */}
       {error && <p className="text-red-500 text-sm mb-4">{error}</p>}
 
-      {/* Submit Button */}
-      {/* <button
-        type="submit"
-        disabled={isSubmitting} // Disable button during submission
-        className="w-full text-white text-xl lg:text-2xl bg-gradient-to-r from-[#9747ff] to-[#3a78ff] rounded-[20px] p-4 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] disabled:opacity-50 disabled:cursor-not-allowed"
-      >
-        {isSubmitting ? "Submitting..." : "Submit Request"}
-      </button> */}
       <Button> {isSubmitting ? "Submitting..." : "Submit Request"}</Button>
     </form>
   );
